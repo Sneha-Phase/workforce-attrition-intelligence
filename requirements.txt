@@ -1,0 +1,31 @@
+# Workforce Attrition Intelligence — Python dependencies
+# Pin versions once the environment is confirmed working.
+# Minimum tested versions listed; use pip install -r requirements.txt
+
+# Core data stack
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.4
+
+# Boosting
+xgboost>=2.0
+
+# Explainability
+shap>=0.44
+
+# Visualisation
+matplotlib>=3.7
+seaborn>=0.13
+plotly>=5.18
+
+# Streamlit
+streamlit>=1.32
+
+# Class imbalance (conditional — see architecture plan Section 5)
+imbalanced-learn>=0.12
+
+# Model persistence
+joblib>=1.3
+
+# Testing
+pytest>=8.0
